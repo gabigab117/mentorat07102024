@@ -8,18 +8,17 @@
 - Le temps d'exécution augmente linéairement avec la taille des données d'entrée.
 - Exemple : parcourir tous les éléments d'un tableau.
 
-## O(log n) - Complexité logarithmique
+## O(log n) - Complexité logarithmique (passer de 1000 à 200 elements prendra moins que ddeux fois plus de temps)
 - Le temps d'exécution augmente de façon logarithmique avec la taille des données d'entrée.
-- Exemple : recherche binaire dans un tableau trié.
 
-## O(n log n) - Complexité linéarithmique
+## O(n log n) - Complexité linéarithmique (entre )
 - n est la taille des données d'entrée.
 - Souvent vue dans les algorithmes de tri efficaces comme le tri fusion ou le tri rapide.
 
-## O(n²) - Complexité quadratique
+## O(n²) - Complexité quadratique (le temps supplémentaire pour chaque élément augmente)
 - Le temps d'exécution augmente quadratiquement avec la taille des données d'entrée.
-- Exemple : tri à bulles.
 
 ## O(2^n) - Complexité exponentielle
 - Le temps d'exécution double (ou plus) pour chaque élément supplémentaire dans l'entrée.
-- Exemple : résolution naïve du problème du voyageur de commerce.
+
+# O(log n) < O(n) < O(n log n) < O(n²)
