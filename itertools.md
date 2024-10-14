@@ -106,3 +106,13 @@ print(' '.join(''.join(c) for c in combinations_with_replacement('ABCD', 2)))
 Similaire à `combinations()`, mais permet de répéter les éléments (ex : AA).
 
 ---
+
+
+# Résumé
+
+```python
+product() : Génère toutes les combinaisons possibles, avec répétition. C'est comme un "et" entre chaque élément.
+permutations() : Génère tous les arrangements possibles, où l'ordre compte, sans répétition.
+combinations() : Génère toutes les combinaisons possibles, où l'ordre ne compte pas, sans répétition.
+combinations_with_replacement() : Comme combinations(), mais permet la répétition des éléments.
+```
